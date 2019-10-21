@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/sally14/sally14.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Welcome to my page!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Current work
 
-### Markdown
+I am a PhD student working at LATTICE and Sciences Po Medialab. I'm working on natural language processing and its applications to social sciences. Before that, I was a student at ENSAE, interested in machine and deep learning. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Some of my first projects so far are documented here : 
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sally14/sally14.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ - [embeddings](https://sally14.github.io/embeddings/index.html) is a small project aiming at giving a simple wrapper to preprocess text and generate word2vec embeddings in an easy way. The preprocessing part is written by me and totally multiprocessed, so that large corpus can be treated efficiently. The word2vec model learning part is a simple cli wrapper based on [gensim](https://radimrehurek.com/gensim/). 
+ 
+ 
+ Further projects on embeddings and contextual embeddings across social spaces are in progress.
+ 
+ ### Teaching
+ 
+ Apart from that, I work as a teaching assistant for Xavier Dupré's [Python for data scientist course at ENSAE](http://www.xavierdupre.fr/app/ensae_teaching_cs/helpsphinx/td_2a.html). I wrote some introductory material for my students, that you can find (here)[https://github.com/sally14/ensae-python-2019]. (french)
+ 
+ 
+ ### Previous work
+ 
+ On previous projects, I created biomedical named entity recognition systems for a startup called Posos, and wrote a (langage model script with Tensorflow)[https://github.com/sally14/language-model-ENSAE] for a NLP course at ENSAE
+ 
+ 
