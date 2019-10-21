@@ -20,7 +20,7 @@ Some of my first projects so far are documented here :
 ## Teaching
 
  
- Apart from that, I work as a teaching assistant for Xavier Dupré's [Python for data scientist course at ENSAE](http://www.xavierdupre.fr/app/ensae_teaching_cs/helpsphinx/td_2a.html). I wrote some introductory material for my students, that you can find (here)[https://github.com/sally14/ensae-python-2019]. (french)
+ Apart from that, I work as a teaching assistant for Xavier Dupré's [Python for data scientist course at ENSAE](http://www.xavierdupre.fr/app/ensae_teaching_cs/helpsphinx/td_2a.html). I wrote some introductory material for my students, that you can find [here](https://github.com/sally14/ensae-python-2019) (french)
  
 
  
