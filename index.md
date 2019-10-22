@@ -20,13 +20,13 @@ Some of my first projects so far are documented here :
 ## Teaching
 
  
- Apart from that, I work as a teaching assistant for Xavier Dupré's [Python for data scientist course at ENSAE](http://www.xavierdupre.fr/app/ensae_teaching_cs/helpsphinx/td_2a.html). I wrote some introductory material for my students, that you can find [here](https://github.com/sally14/ensae-python-2019) (french)
+ Apart from that, I work as a teaching assistant for Xavier Dupré's [Python for data scientist course at ENSAE](http://www.xavierdupre.fr/app/ensae_teaching_cs/helpsphinx/td_2a.html). I wrote some introductory material for my students, that you can find on my [teaching page](./teaching/teachings.md)
  
 
  
 ## Previous work
 
 
-On previous projects, I created biomedical named entity recognition systems for a startup called Posos, and wrote a (langage model script with Tensorflow)[https://github.com/sally14/language-model-ENSAE] for a NLP course at ENSAE
+On previous projects, I created biomedical named entity recognition systems for a startup called Posos which led to [this](https://github.com/sally14/NLPBasics/blob/master/Report/report.pdf) synthesis about deep learning and NLP basics, and wrote a [langage model script with Tensorflow](https://github.com/sally14/language-model-ENSAE) for a NLP course at ENSAE
  
  
