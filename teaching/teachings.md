@@ -1,3 +1,5 @@
+[(back)](../index.md)
+
 # Teachings
 
 
