@@ -4,6 +4,8 @@ layout: default
 
 # Welcome to my page!
 
+![](./data/23744696.jpeg)
+
 ## Current work
 I am a PhD student working at LATTICE and Sciences Po Medialab. I'm working on natural language processing and its applications to social sciences. Before that, I was a student at ENSAE, interested in machine and deep learning. 
 
