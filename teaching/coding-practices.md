@@ -1,3 +1,4 @@
+[(back)](teachings.md)
 # Good coding practices for Data Scientist beginners
 
 This page was originally written to guide my "Python pour le data scientist" students through the coding part of the data science work. 
@@ -119,7 +120,7 @@ tail
 These are the very basics for navigation and edition that, once you're used to use them, will allow you to do lots of things very quickly. Obviously, many other commands exist, and you can check the internet to get to know any of them.
 
 
-### 1.3 Installing programs
+### 1.3 Installing programs and downloading files
 
 You can download and install programs from the command line using an packet manager. I will only present the most popular.
 
@@ -140,15 +141,35 @@ brew install my_programm
 ```
 If you don't find the program you're searching for, it might be because ```homebrew``` doesn't have all the packages sources by default. To overcome that, install and use ```cask```. You can get all the instructions on [Homebrew's cask website](https://github.com/Homebrew/homebrew-cask).
 
+To download files from the internet, you can use ```wget``` or ```curl```.
+
 ## 2. Remote coding
 
+For a data scientist, remotely coding on a server or virtual instance can be a major part of the job. Here are some basics.
+
 ### 2.1 SSH
+
+SSH is a secure protocol to connect remotely on a distant server, i.e. another computer that is connected to the internet, has an IP address, and accepts ssh connections.
+Other protocols exists but ssh is very simple and popular, so I will only focus on that.
+
+To connect on the remote host as the user ```user```, supposing the host has an IP adress ```hostip``` : 
+
+```bash
+ssh user@hostip
+```
+You will then be asked for you login password on the host computer. After that, you're in the other computer, controlling things from the command line.
+
+Depending on the configuration of your host, you might be able to add your RSA public key to the ssh configuration files to skip the password login part.
+
+Most virtual instance providers, as gcp, microsoft azure, aws will provide you with an host ip and enable you to create one or multiple users on the instance you created, after setup. You will then be able to connect via ssh.
+
+However, there is one drawback to ssh : if the wifi runs out of service or 
 
 ### 2.2 Screen and equivalents
 
 ### 2.3 Sharing files, Synchronizing directories
 
-### 2.4 VSCode remote extension
+### 2.4 Cheating : VSCode remote extension
 
 
 # Code versioning and packaging, reproductibility

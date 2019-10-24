@@ -20,4 +20,7 @@ The complete github repository can be found [here](https://github.com/sally14/en
 
 
 I am currently writing an introduction to good coding practice for data scientist beginners, i.e. : git, pep8, virtual environments, code documentation.
+The work is in progress and can be found here:
+
+[Good coding practices for Data Scientist beginners](coding-practices.md)
 
