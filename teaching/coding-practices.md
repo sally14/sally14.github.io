@@ -15,17 +15,130 @@ The note is thus organized in four themes:
 
 # General OS/computer-related skills
 
+
 ## 0. Operating System
 
+What is an operating system? To stay simple, an operating system is the interface between your hardware and your software programs. There are two main types of OS (for basic users) : Unix-based OS and non-Unix-based OS. Unix-based OS are OS like Linux distributions, and Apple's OSX. Non-Unix based OS are OS like, mainly, Windows.
+
+In this note, I will only focus on Unix-based OS, but command equivalents for Window Powershell can be found on the internet. 
+
+Some of the main components of the hardware your OS is handling are:
+- **CPU** : (central processing unit) this is where computations/logic operations are made by the computer. CPU processors can have multiple cores to parallelize computations on.
+- **GPU** : (graphical processing unit) is another type of computation unit of the computer, which is slower than CPUs, but is more adapted to parallelization.
+- **RAM** : (random access memory) is a type of memory support that is restrained in capacity but very fast to access. This is a short-term memory that is erased whenever the computer is turned off.
+- **Hard memory** : this is the long-term memory disk that stores files when the computer is off. Accessing the hard disk memory is more time-consumming than accessing RAM.
+
+It can be useful to read a bit on the functionning of these components, to better optimize your code. 
+
+OS usually provide 2 types of interfaces to use them : 
+- *Command line interface*, which is the most basic, and at the same time powerful way to talk to the OS.
+- *Graphical user interface*, which is probably the interface you're used to. The information and processes are represented in a graphical way. This might seem more easy-to-use, but it is slow for basic things like navigating in the file system, creating directories, writing files, etc.
+
+In the next section, I'm going to focus on some very basic things about command line interfaces.
 
 ## 1. Command line
 
 ### 1.1 What is a command line?
+A command-line interpretor is a program that takes your commands as an input and produces the output of the command. There is no mouse or graphical feature : everything can be done with a keyboard.
 
-### 1.2 Navigating 
+On Linux/ubuntu-based, you can open your command line interpretor / terminal with the ctrl+alt+t shortcut. You can also search for the "Terminal" program. It works approximately the same for OSX.
+
+### 1.2 Navigating
+
+Most of the basic commands you'll never forget are the navigation commands.
+
+First, print the working directory you're in : 
+```bash
+pwd
+```
+pwd stand for 'print working directory'. 
+On my computer, it outputs for instance : 
+```bash
+/home/salome/Documents
+```
+```/``` symbolizes the root : this is where all directories start. Then, the path to my current directory is indicated, with each directory/subdirectory separated by a ```/```. Generally, you will always be in your ```home``` directory : this is where all your files will be stored. Other directories from the root are handled by the OS, so try not to mess with them if you're not used to your OS. Some directories are of interest though : ```bin``` contains all the binaries of the installed programs on your computers, and ```tmp``` is a temporary directory, erased when your turn the computer off. You can store temporary files here. ```usr``` sometimes contain shared programs (when there are multiple users on the computer).
+
+To list all the files and subdirectories, use the command:
+```bash
+l
+```
+or 
+```bash
+ls
+```
+
+```l``` with no argument after will list the files and subdirectories of the working directory you're in. You can put an argument after the command to precise the path you want to list the files of:
+
+```bash
+ls /home/salome/
+```
+Would output:
+```bash
+Bureau  Documents  Images  Modèles  Musique  Public  Téléchargements  Vidéos
+```
+To access the full description of a command, always type ```man ls```, to get to know all the options and parameters of the ```ls``` command for instance. 
+
+To keep this note short and simple, I will not detail that much the other commands, but mostly present name and purpose so that you can search the rest by yourself by using ```man```. 
+
+Creating a directory:
+```bash
+mkdir
+```
+
+Removing a file or directory:
+```bash
+rm
+```
+
+Moving a file or a directory:
+```bash
+mv
+```
+
+Copying a file or a directory:
+```bash
+cp
+```
+
+Creating an empty text file:
+```bash
+touch
+```
+
+Opening and editing a file from the command line can be done with ```vi```, ```vim```, ```nano``` or other programs.
+
+Reading a file:
+```bash
+more
+```
+Reading the end of a file:
+```bash
+tail
+```
+
+These are the very basics for navigation and edition that, once you're used to use them, will allow you to do lots of things very quickly. Obviously, many other commands exist, and you can check the internet to get to know any of them.
+
 
 ### 1.3 Installing programs
 
+You can download and install programs from the command line using an packet manager. I will only present the most popular.
+
+On Ubuntu and ubuntu-based distributions of Linux, you can use ```apt-get```.
+Generally, the syntax is:
+```bash
+sudo apt-get install my_programm
+```
+Where ```my_programm``` is the name of the programm you want to install. For instance, I can install Mozilla Firefox from the command line by typing: ```sudo apt-get install firefox```. The ```sudo``` beginning of the command stands for "super user do" or something similar. It means that you're using super user (which is a kind of admin) rights to execute the command you want to execute. You will then be asked for your password. If you come from Windows, it's just when Windows asks you for your password to install new software.
+
+On OSX, you have to install ```homebrew```, which is not installed by default on your computer. To do so, type:
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+Then to install programs you'll only have to type 
+```bash
+brew install my_programm
+```
+If you don't find the program you're searching for, it might be because ```homebrew``` doesn't have all the packages sources by default. To overcome that, install and use ```cask```. You can get all the instructions on [Homebrew's cask website](https://github.com/Homebrew/homebrew-cask).
 
 ## 2. Remote coding
 
