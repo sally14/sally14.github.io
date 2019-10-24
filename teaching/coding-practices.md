@@ -13,7 +13,49 @@ The note is thus organized in four themes:
 - *Computational efficiency tips*, which focus on how to parallelize code with python (this will rmain basic), how not to overload RAM, and some mistakes to avoid.
 - *Python coding conventions and tips*, which is less useful as it is mainly for your code's aethetics, but can be welcomed when wanting to use automatic tools to, for instance, automatically generate documentation.
 
+<!-- TOC -->
 
+- [Good coding practices for Data Scientist beginners](#good-coding-practices-for-data-scientist-beginners)
+- [General OS/computer-related skills](#general-oscomputer-related-skills)
+    - [0. Operating System](#0-operating-system)
+    - [1. Command line](#1-command-line)
+        - [1.1 What is a command line?](#11-what-is-a-command-line)
+        - [1.2 Navigating](#12-navigating)
+        - [1.3 Installing programs and downloading files](#13-installing-programs-and-downloading-files)
+    - [2. Remote coding](#2-remote-coding)
+        - [2.1 SSH](#21-ssh)
+        - [2.2 Screen and equivalents](#22-screen-and-equivalents)
+        - [2.3 Sharing files, Synchronizing directories](#23-sharing-files-synchronizing-directories)
+        - [2.4 Cheating : VSCode remote extension](#24-cheating--vscode-remote-extension)
+- [Code versioning and packaging, reproductibility](#code-versioning-and-packaging-reproductibility)
+    - [1. Versioning](#1-versioning)
+        - [1.1 What is code versioning?](#11-what-is-code-versioning)
+        - [1.2 Git introduction](#12-git-introduction)
+        - [1.3 Github, gitlab](#13-github-gitlab)
+    - [2. Environments](#2-environments)
+        - [2.1 Why using virtual environments?](#21-why-using-virtual-environments)
+        - [2.2 Conda, Miniconda](#22-conda-miniconda)
+        - [2.3 Virtual env, pip](#23-virtual-env-pip)
+    - [3. Other ressources](#3-other-ressources)
+        - [3.1 How to create a pypi package?](#31-how-to-create-a-pypi-package)
+        - [3.2 Docker](#32-docker)
+- [Computational efficiency tips](#computational-efficiency-tips)
+        - [1. Multiprocessing](#1-multiprocessing)
+        - [2. Garbage collector](#2-garbage-collector)
+        - [3. Some mistakes I've made that you could avoid](#3-some-mistakes-ive-made-that-you-could-avoid)
+- [Python coding conventions and tips](#python-coding-conventions-and-tips)
+    - [1. PEP8](#1-pep8)
+        - [1.1 What is PEP8?](#11-what-is-pep8)
+        - [1.2 Linters](#12-linters)
+        - [1.3 Cheating : Black](#13-cheating--black)
+    - [2. Documenting your code](#2-documenting-your-code)
+        - [2.1 Docstrings](#21-docstrings)
+        - [2.2 Automatically generate a documentation](#22-automatically-generate-a-documentation)
+        - [2.3 Publish your documentation online](#23-publish-your-documentation-online)
+
+
+
+<!-- /TOC -->
 # General OS/computer-related skills
 
 
