@@ -13,6 +13,9 @@ The note is thus organized in four themes:
 - *Computational efficiency tips*, which focus on how to parallelize code with python (this will rmain basic), how not to overload RAM, and some mistakes to avoid.
 - *Python coding conventions and tips*, which is less useful as it is mainly for your code's aethetics, but can be welcomed when wanting to use automatic tools to, for instance, automatically generate documentation.
 
+
+
+
 # General OS/computer-related skills
 
 
@@ -216,9 +219,17 @@ Check [VSCode remote development documentation](https://code.visualstudio.com/do
 
 # Code versioning and packaging, reproductibility
 
+As a data scientist, you want to make models that work not only on your computer with your special configuration, but over all platforms. 
+
+If you want to work in the industry, you'll be asked to ship code that can run for APIs on your company's servers. If you want to work in research, you'll be asked more and more to write reproductible experiments (some papers submissions require a github repository with all the code).
+
+The basics of reproductibility rely on two main things : versioning your code, so that any state of your code can be found back, using virtual environments so that your code can be cross-plateforms. Then, knowing how to package your code to put it on pypi, or using docker will help you achieving real reproductibility.
+
 ## 1. Versioning
 
 ### 1.1 What is code versioning?
+
+Code versioning consists of tracking your code's evolutions in time, sometimes labelling versions, etc. 
 
 ### 1.2 Git introduction
 
