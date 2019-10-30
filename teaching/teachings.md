@@ -16,11 +16,11 @@ The outline of the lab sessions is the following :
 - [x] **TP3** : *Cross validation, boosting, hyperparameter tuning*
 - [ ] **TP4** : *Deep learning basics and introduction to natural language processing with Keras.*
 
-The complete github repository can be found [here](https://github.com/sally14/ensae-python-2019). 
+The complete github repository containing the ```.ipynb``` files can be found [here](https://github.com/sally14/ensae-python-2019). 
 
 
 I am currently writing an introduction to good coding practice for data scientist beginners, i.e. : git, pep8, virtual environments, code documentation.
 The work is in progress and can be found here:
 
-[Good coding practices for Data Scientist beginners](coding-practices.md)
 
+[Good coding practices for Data Scientist beginners](coding-practices.md)

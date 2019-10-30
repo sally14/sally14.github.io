@@ -7,7 +7,9 @@ layout: default
 
 
 ## Current work
-I am a PhD student working at LATTICE and Sciences Po Medialab. I'm working on natural language processing and its applications to social sciences. Before that, I was a student at ENSAE, interested in machine and deep learning. 
+I am Salomé Do, a PhD student working at LATTICE (Ecole Normale Supérieure) and médialab (Sciences Po). I'm working on natural language processing and its applications to social sciences. Before that, I was a student at ENSAE, interested in machine and deep learning. 
+
+My work aims at developing innovative methods for modelling and mapping public issues based on their textual traces. Its ambition is twofold: on the one hand, to make it possible to compare the semantic spaces that result from different social spaces, and on the other hand, to finely model the argumentation and enunciation of actors in textual content from the web. The dissertation thus aims at describing the structure of the discursive dynamics of actors in different discussion arenas from the most public media space (press) to the conversational spaces hosted by social networks (Twitter, Facebook). 
 
 Some of my first projects so far are documented here : 
 
@@ -29,6 +31,6 @@ Some of my first projects so far are documented here :
 ## Previous work
 
 
-On previous projects, I created biomedical named entity recognition systems for a startup called Posos which led to [this](https://github.com/sally14/NLPBasics/blob/master/Report/report.pdf) synthesis about deep learning and NLP basics, and wrote a [langage model script with Tensorflow](https://github.com/sally14/language-model-ENSAE) for a NLP course at ENSAE
+On previous projects, I created biomedical named entity recognition systems for a startup called Posos which led to [this](https://github.com/sally14/NLPBasics/blob/master/Report/report.pdf) synthesis about deep learning and NLP basics, and wrote a [langage model script with Tensorflow](https://github.com/sally14/language-model-ENSAE) for a NLP course at ENSAE.
  
  
