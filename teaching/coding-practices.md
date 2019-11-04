@@ -10,7 +10,7 @@ This note is not intented to be a complete computer science course, and is only 
 The note is thus organized in four themes: 
 - *OS/command line*, which will remain very basic (it is meant for data scientists, not developpers!). The most important part for a data scientist is the remote part, as most data scientist will have to execute code on remote servers or virtual instances.
 - *Versioning, packaging, reproductibility*, which focus on git, virtual environments, and introduces things like docker.
-- *Computational efficiency tips*, which focus on how to parallelize code with python (this will rmain basic), how not to overload RAM, and some mistakes to avoid.
+- *Computational efficiency tips*, which focus on how to parallelize code with python (this will remain basic), how not to overload RAM, and some mistakes to avoid.
 - *Python coding conventions and tips*, which is less useful as it is mainly for your code's aethetics, but can be welcomed when wanting to use automatic tools to, for instance, automatically generate documentation.
 
 
@@ -124,7 +124,7 @@ These are the very basics for navigation and edition that, once you're used to u
 
 ### 1.3 Installing programs and downloading files
 
-You can download and install programs from the command line using an packet manager. I will only present the most popular.
+You can download and install programs from the command line using a packet manager. I will only present the most popular.
 
 On Ubuntu and ubuntu-based distributions of Linux, you can use ```apt-get```.
 Generally, the syntax is:
