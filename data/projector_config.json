@@ -6,8 +6,8 @@
         111495,
         200
       ],
-      "tensorPath": "https://raw.githubusercontent.com/sally14/sally14.github.io/data/embeddings.tsv",
-      "metadataPath": "https://raw.githubusercontent.com/sally14/sally14.github.io/metadata.tsv"
+      "tensorPath": "https://media.githubusercontent.com/media/sally14/sally14.github.io/master/data/embeddings.tsv",
+      "metadataPath": "https://media.githubusercontent.com/media/sally14/sally14.github.io/master/data/metadata.tsv"
     }
   ]
 }
