@@ -1,0 +1,13 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "My tensor",
+      "tensorShape": [
+        111495,
+        200
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/sally14/sally14.github.io/data/embeddings.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/sally14/sally14.github.io/metadata.tsv"
+    }
+  ]
+}
