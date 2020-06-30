@@ -4,7 +4,9 @@ layout: default
 
 # Welcome to my page!
 
-
+-----------------
+## [Home](https://sally14.github.io/) • [Teaching](teachings.md) 
+-----------------
 
 ## Current work
 I am Salomé Do, a PhD student working at LATTICE (Ecole Normale Supérieure) and médialab (Sciences Po). I'm working on natural language processing and its applications to social sciences. Before that, I was a student at ENSAE, interested in machine and deep learning. 
@@ -32,6 +34,8 @@ Some of my current projects include:
 ## Previous work
 
 
-On previous projects, I created biomedical named entity recognition systems for a startup called Posos which led to [this](https://github.com/sally14/NLPBasics/blob/master/Report/report.pdf) synthesis about deep learning and NLP basics, and wrote a [langage model script with Tensorflow](https://github.com/sally14/language-model-ENSAE) for a NLP course at ENSAE.
+On previous projects, I created biomedical named entity recognition systems for a startup called Posos which led to [this](https://github.com/sally14/NLPBasics/blob/master/Report/report.pdf) brief synthesis about deep learning and NLP basics, and wrote a [langage model script with Tensorflow](https://github.com/sally14/language-model-ENSAE) for a NLP course at ENSAE.
  
- 
+## I am also on
+
+[Twitter](https://twitter.com/slalomedo)
