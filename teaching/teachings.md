@@ -1,4 +1,7 @@
-[(back)](../index.md)
+
+-----------------
+## [Home](https://sally14.github.io/) • [Teaching](/teaching/teachings.md) 
+-----------------
 
 # Teachings
 
