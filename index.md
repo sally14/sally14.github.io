@@ -24,7 +24,7 @@ Some of my current projects include:
 
  
  Apart from that, I :
- - worked as a teaching assistant for Xavier Dupré's [Python for data scientist course at ENSAE](http://www.xavierdupre.fr/app/ensae_teaching_cs/helpsphinx/td_2a.html). I wrote some introductory material for my students, that you can find on my [teaching page](./teaching/teachings.md)
+ - Worked as a teaching assistant for Xavier Dupré's [Python for data scientist course at ENSAE](http://www.xavierdupre.fr/app/ensae_teaching_cs/helpsphinx/td_2a.html). I wrote some introductory material for my students, that you can find on my [teaching page](./teaching/teachings.md)
  - Teached a course named  **"Learning text representation for Social Sciences"** at Université Gustave Eiffel. A short syllabus can be found [here](/data/teaching_stuff/syllabus.pdf)
  - Worked as a teaching assistant for the [ML for NLP](https://nlp-ensae.github.io/) course at ENSAE.
 
