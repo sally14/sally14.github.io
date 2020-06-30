@@ -5,7 +5,7 @@ layout: default
 # Welcome to my page!
 
 -----------------
-## [Home](https://sally14.github.io/) • [Teaching](./teachings.md) 
+## [Home](https://sally14.github.io/) • [Teaching](https://sally14.github.io/teaching/teachings.md) 
 -----------------
 
 ## Current work
