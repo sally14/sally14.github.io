@@ -10,16 +10,13 @@ layout: default
 I am Salomé Do, a PhD student working at LATTICE (Ecole Normale Supérieure) and médialab (Sciences Po). I'm working on natural language processing and its applications to social sciences. Before that, I was a student at ENSAE, interested in machine and deep learning. 
 
 My work aims at developing innovative methods for modelling and mapping public issues based on their textual traces. Its ambition is twofold: on the one hand, to make it possible to compare the semantic spaces that result from different social spaces, and on the other hand, to finely model the argumentation and enunciation of actors in textual content from the web. The dissertation thus aims at describing the structure of the discursive dynamics of actors in different discussion arenas from the most public media space (press) to the conversational spaces hosted by social networks (Twitter, Facebook). 
-<!-- 
-Some of my first projects so far are documented here : 
 
- - [embeddings](https://sally14.github.io/embeddings/index.html) is a small project aiming at giving a simple wrapper to preprocess text and generate word2vec embeddings in an easy way. The preprocessing part is written by me and totally multiprocessed, so that large corpus can be treated efficiently. The word2vec model learning part is a simple cli wrapper based on [gensim](https://radimrehurek.com/gensim/). 
- 
- 
- Further projects on embeddings and contextual embeddings across social spaces are in progress.
-  -->
+Some of my current projects include:
 
- 
+- A project on the transformation of politics framing in french written press since 1950.
+- A project on Bruno Latour's questionnaire on world-to-come after Covid-19
+- A project on denial, delation schemes and controversies during Covid-19 crisis in France
+
  
 ## Teaching
 
