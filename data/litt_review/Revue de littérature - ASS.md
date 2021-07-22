@@ -68,5 +68,49 @@
 - **Experimental Setup** We detect frames for all 2.6M immigration-related tweets using the fine- tuned RoBERTa model with the best-performing seed on development data. Using this labeled data, we estimate the effects of region and ideology by fitting separate mixed-effects logistic regression models to predict the presence or absence of each frame. 
 - **Intérêt pour nous** : Très proche de ce que l'on fait en terme de méthodo : mêmes modèles etc. Type de données différent : tweet.
 
-### 
+### Framing and Agenda-setting in Russian News: a Computational Analysis of Intricate Political Strategies
+
+
+
+- --> Globalement, méthodes basées sur de la lexico
+
+
+
+### Super-unsupervised text classification for labeling online political hate
+
+https://www.researchgate.net/publication/352235231_Super-unsupervised_text_classification_for_labeling_online_political_hate
+
+
+
+June 2021
+
+- **Abstract** :   We live in a world of text but the sheer magnitude ofsocial media data coupled with a need to measure complex psychological constructs have made this important source ofdata difficult to use for many social scientists. Either researchers engage in costly hand-coding ofthousands oftexts using supervised techniques or in unsupervised techniques where the measurement ofpredefined constructs are difficult. We propose a novel approach which we call super-unsupervised learning using the psychologically complex construct online political hate. This approach draws on the best features from both supervised and unsupervised learning techniques: Measurements of complex psychological constructs without a single labelled data source. We first outline the approach and then provide tests of (i) face validity, (ii) convergent and discriminant validity, (iii) criterion validity, (iv) external validity and (v) ecological validity.
+
+- **Methode** : The "super-unsupervised" technique oﬀers a simple yet elegant solution to the problems of both
+
+  deﬁnition and measurement. The approach makes use of so-called "word embeddings" to identify
+
+  what social media users themselves ﬁnd politically hateful and uses these to construct a classiﬁer for
+
+  the entire corpus. Speciﬁcally, the “super-unsupervised” technique involves a series of simple but
+
+  eﬀective steps: (i) train word vectors for the desired corpus; (ii) use the trained word vectors to extract
+
+  the constructs you are interested in (here, “political hate”); (iii) for each document in the corpus (here,
+
+  social media posts), calculate the distance to the investigated construct; (iv) sort by the calculated
+
+  distance; and (v) appreciate the ﬁnal "labeled” dataset.
+
+- --> Globalement le texte laisse une impression un peu étrange, ça a l'air de mal tenir debout et d'être justifié par des arguments un peu bofs
+
+### Social Media and Political Agenda Setting 
+
+https://doi.org/10.1080/10584609.2021.1910390
+
+- **Abstract** : What is the role of social media in political agenda setting? Digital platforms have reduced the gatekeeping power of traditional media and, potentially, they have increased the capacity of various kinds of actors to shape the agenda. We study this question in the Swiss context by examining the connections between three agendas: the traditional media agenda, the social media agenda of parties, and the social media agenda of politicians. Specifically, we validate and apply **supervised machine learning classifiers** to categorize **2.78 million arti- cles published in 84 newspapers, 6,500 tweets posted on official party accounts, and 210,000 tweets posted by politicians on their own accounts from January 2018 until December 2019**. We first use the classifier to measure the salience of the four most relevant issues of the period: the environment, Europe, gender equality, and immigration. Then, using a vector autoregression (VAR) approach, we analyze the relationship between the three agendas. Results show that not only do the traditional media agenda, the social media agenda of parties, and the social media agenda of politicians influence one another but, overall, no agenda leads the others more than it is led by them. There is one important exception: for the environment issue, the social media agenda of parties is more predictive of the traditional media agenda than vice-versa. These findings underscore how closely differ- ent agendas are tied together, but also show that advocacy campaigns may play an important role in both constraining and enabling parties to push their specific agendas.
+
+- **Methode** : The classifiers are built around an ensemble procedure which uses different algorithms to
+  classify the texts (Géron, 2019). The feature engineering is based on a Word to Vector (Word2Vec) approach. Word2Vec is a neural network trained to reconstruct linguistic context of words using a vector space built form a large corpus of words. We base the vector space on our text corpus which enables us to reconstruct the linguistic context of words within the political domain. The ensemble classifiers for tweets and longer texts both perform reasonably well over all topics of interest. The main difference between the two classifier systems, besides the different training data, is that the social media classifier classifies texts into ten different topics, while the second classifier considers a slightly wider range of topics (see also Table A1). The ensemble method results in out-of-sample accuracy of at least 80% for all classes in German and French. Tables A2 and A39 provide detailed information on the classifier performance and underscore that the ensemble methods do not suffer from systematic classification error. The classifier for social media texts has an overall F1 score of 88% in German and 65% in
+  French, while the overall classification of newspaper articles has an F1 score of 78% in German and 86% in French. Due to the large amount of training data, we do not need to consider active learning approaches and do not face the issue of imbalanced classes (Fong & Tyler, 2020). Our extensive validation in the Supporting Information underscores that we do not face the issue of systematic misclassification.
 
