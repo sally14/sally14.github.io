@@ -36,3 +36,36 @@
   Puis analyse des stratégies linguistiques des gens qui agree/disagree
 
   
+
+  ## Laura Nelson
+
+  
+
+  
+
+  ## Theocharis & Jungerr 2020
+
+  - Yannis Theocharis & Andreas Jungherr (2020): Computational Social Science and the Study of Political Communication, Political Communication, DOI: 10.1080/10584609.2020.1833121
+  - 
+
+  ![Capture d’écran 2021-07-22 à 16.49.15](./Capture d’écran 2021-07-22 à 16.49.15.png)
+
+  -> Barbera 2020 revient tout le temps
+
+
+
+## À partir des citations de Barbera 2021
+
+### Modeling Framing in Immigration Discourse on Social Media  
+
+- Julia Mendelsohn et al., 13 april 2021,  http://arxiv.org/abs/2104.06443
+
+- <img src="./Capture d’écran 2021-07-22 à 18.04.39.png" alt="Capture d’écran 2021-07-22 à 18.04.39" style="zoom:50%;" />
+- "By creating a new dataset of immigration- related tweets labeled for multiple framing typologies from political communication theory, we develop supervised models to detect frames"
+- Tweets are annotated using three frame typologies: (i) issue-generic policy, (ii) immigration-specific, and (iii) narrative frames, where a tweet may use multiple frames simulta- neously. We
+- Training, development, and test data were annotated using two procedures after four annotators completed four rounds of training. The dataset contains equal numbers of tweets from the EU, UK, and US. Training data was singly annotated and includes 3,600 tweets, while the development and test sets each contain 450 tweets (10% of the full dataset) and were consensus-coded by pairs of trained annotators. 
+- <img src="./Capture d’écran 2021-07-22 à 18.12.44.png" alt="Capture d’écran 2021-07-22 à 18.12.44" style="zoom:50%;" />
+- **Experimental Setup** We detect frames for all 2.6M immigration-related tweets using the fine- tuned RoBERTa model with the best-performing seed on development data. Using this labeled data, we estimate the effects of region and ideology by fitting separate mixed-effects logistic regression models to predict the presence or absence of each frame. 
+- **Intérêt pour nous** : Très proche de ce que l'on fait en terme de méthodo : mêmes modèles etc. Type de données différent : tweet.
+
+### 
