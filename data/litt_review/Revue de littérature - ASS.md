@@ -19,7 +19,7 @@
 
   **Dataset** : Médias assez mixés : 
 
-  <img src="./Capture d’écran 2021-07-22 à 12.00.10.png" alt="Capture d’écran 2021-07-22 à 12.00.10" style="zoom: 50%;" />
+  <img src="https://raw.githubusercontent.com/sally14/sally14.github.io/master/data/litt_review/Capture%20d%E2%80%99%C3%A9cran%202021-07-22%20%C3%A0%2012.00.10.png" alt="Capture d’écran 2021-07-22 à 12.00.10" style="zoom: 50%;" />
 
   Dataset d'entrainement pour la classif : 2K sentences -> approximativement ce que l'on fait 
 
@@ -31,7 +31,7 @@
 
   **Performances** : 
 
-  <img src="./Capture d’écran 2021-07-22 à 12.06.11.png" alt="Capture d’écran 2021-07-22 à 12.06.11" style="zoom:50%;" />
+  <img src="https://raw.githubusercontent.com/sally14/sally14.github.io/master/data/litt_review/Capture%20d%E2%80%99%C3%A9cran%202021-07-22%20%C3%A0%2012.06.11.png" alt="Capture d’écran 2021-07-22 à 12.06.11" style="zoom:50%;" />
 
   Puis analyse des stratégies linguistiques des gens qui agree/disagree
 
