@@ -25,4 +25,4 @@ The complete github repository containing the ```.ipynb``` files can be found [h
 
 I gave this course during February 2020 at Université Gustave Eiffel.  A short syllabus can be found [here](/data/teaching_stuff/syllabus.pdf)
 
-
+I gave a [refined version of this course](/data/teaching_stuff/NLP_Course_X.pdf) for Etienne Ollion at Ecole Polytechnique
