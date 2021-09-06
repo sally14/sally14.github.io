@@ -46,6 +46,8 @@ Some of my past projects include:
 
 On previous projects during my master's degree, I created biomedical named entity recognition systems for a startup called Posos which led to [this](https://github.com/sally14/NLPBasics/blob/master/Report/report.pdf) brief synthesis about deep learning and NLP basics.
 
+
+
 ## I am also on
 
 [Twitter](https://twitter.com/slalomedo)
