@@ -9,24 +9,21 @@ layout: default
 -----------------
 
 ## Current work
-I am Salomé Do, a PhD student working at LATTICE (Ecole Normale Supérieure) and médialab (Sciences Po). I'm working on natural language processing and its applications to social sciences. Before that, I was a student at ENSAE, interested in machine and deep learning. 
+I am Salomé Do, a PhD student working at LATTICE (Ecole Normale Supérieure) and médialab (Sciences Po). I'm working at the crossroads between Natural Language Processing, Mass Media and Political Communication. 
 
-My work aims at using modern NLP methods on large media corpora in order to provide quantitative insights on traditional questions in Media and Political Sociology.
+The aim of my dissertation is to explore and assess **computational methods for news framing analysis**. More specifically, I investigate how supervised machine learning can help automate some parts of **content analysis methods**, and the requirements needed for SML to work. For instance, SML can automate the coding of simple lexical indicators, but up to which level of linguistic abstractness can we push the algorithms? How much manual coding do we really need for SML algorithms to be able to learn to automate the task? What should be the quality of this manual coding? Is it better to have crowdsourcers, or a few expert coders? Ultimately, my aim is also to question the utility of using such methods: when is SML really needed, and when can we just use manual content analysis methods? 
+
+Through this methodological lens, **news framing analysis** is a particularly interesting object to study. The definition of frames and framing is still debated, and very difficult to operationalize. It draws on concepts in linguistic, rhetorics, stylistics, discourse analysis, etc., and involves multiple facets of language. Meanwhile, its effects on how we perceived the world are fascinating. 
+
+A joint project (article currently under review) with Etienne Ollion and Rubing Shen uses SML to try to understand the **transformation of strategic news framing in french written press since 1950**. 
 
 
 
-Some of my current projects include :
-
-- A project on the transformation of politics framing in french written press since 1950.
-
-- A project on retrieving sourced reported statements in media corpora
-  
-
-Some of my past projects include:
+Some of my past projects also include:
 
 - [A project on Bruno Latour's questionnaire on world-to-come after Covid-19 ](https://sally14.github.io/data/Where_to_land_after_the_epidemic_V2.pdf)
 - [A project on denial, delation schemes and controversies during Covid-19 crisis in France](https://doi.org/10.3917/scpo.lazar.2020.01.0223) (Published in Le monde d'aujourd'hui. Les sciences sociales au temps de la Covid., Presses de Sciences Po)
-- A contribution to the project " Mapping AI issues in media through NLP methods" (accepted at CHR2021)
+- A contribution to the project [" Mapping AI issues in media through NLP methods"](http://ceur-ws.org/Vol-2989/long_paper22.pdf) (accepted at CHR2021)
 
 
 ## Teaching
@@ -44,7 +41,7 @@ Some of my past projects include:
 ## Previous work
 
 
-On previous projects during my master's degree, I created biomedical named entity recognition systems for a startup called Posos which led to [this](https://github.com/sally14/NLPBasics/blob/master/Report/report.pdf) brief synthesis about deep learning and NLP basics.
+On previous projects during my master's degree at ENSAE IP Paris, I created biomedical named entity recognition systems for a startup called Posos which led to [this](https://github.com/sally14/NLPBasics/blob/master/Report/report.pdf) brief synthesis about deep learning and NLP basics.
 
 
 
