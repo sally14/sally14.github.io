@@ -18,9 +18,9 @@ Through this methodological lens, **news framing analysis** is a particularly in
 
 A joint project  with Etienne Ollion and Rubing Shen uses SML to try to understand the **transformation of strategic news framing in french written press since 1950**. 
 
-UPDATE : Article accepted in Sociological Methods and Research, 
+UPDATE : Article accepted in Sociological Methods and Research:
 
-- [The Augmented Social Scientist, Using Sequential Transfer Learning to Annotate Millions of Texts with Human-Level Accuracy]https://journals.sagepub.com/doi/abs/10.1177/00491241221134526()
+- [The Augmented Social Scientist, Using Sequential Transfer Learning to Annotate Millions of Texts with Human-Level Accuracy](https://journals.sagepub.com/doi/abs/10.1177/00491241221134526)
 
 
 
