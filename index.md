@@ -13,9 +13,14 @@ I am Salomé Do, a PhD student working at LATTICE (Ecole Normale Supérieure) an
 
 The aim of my dissertation is to explore and assess **computational methods for news framing analysis**. More specifically, I investigate how supervised machine learning can help automate some parts of **content analysis methods**, and the requirements needed for SML to work. For instance, SML can automate the coding of simple lexical indicators, but up to which level of linguistic abstractness can we push the algorithms? How much manual coding do we really need for SML algorithms to be able to learn to automate the task? What should be the quality of this manual coding? Is it better to have crowdsourcers, or a few expert coders? Ultimately, my aim is also to question the utility of using such methods: when is SML really needed, and when can we just use manual content analysis methods? 
 
-Through this methodological lens, **news framing analysis** is a particularly interesting object to study. The definition of frames and framing is still debated, and very difficult to operationalize. It draws on concepts in linguistic, rhetorics, stylistics, discourse analysis, etc., and involves multiple facets of language. Meanwhile, its effects on how we perceived the world are fascinating. 
+Through this methodological lens, **news framing analysis** is a particularly interesting object to study. The definition of frames and framing is still debated, and very difficult to operationalize. It draws on concepts in linguistic, rhetorics, stylistics, discourse analysis, etc., and involves multiple facets of language. Meanwhile, its effects on how we perceive the world are fascinating. 
 
-A joint project (article currently under review) with Etienne Ollion and Rubing Shen uses SML to try to understand the **transformation of strategic news framing in french written press since 1950**. 
+
+A joint project  with Etienne Ollion and Rubing Shen uses SML to try to understand the **transformation of strategic news framing in french written press since 1950**. 
+
+UPDATE : Article accepted in Sociological Methods and Research, 
+
+- [The Augmented Social Scientist, Using Sequential Transfer Learning to Annotate Millions of Texts with Human-Level Accuracy]https://journals.sagepub.com/doi/abs/10.1177/00491241221134526()
 
 
 
@@ -41,13 +46,9 @@ Some of my past projects also include:
 ## Previous work
 
 
-On previous projects during my master's degree at ENSAE IP Paris, I created biomedical named entity recognition systems for a startup called Posos which led to [this](https://github.com/sally14/NLPBasics/blob/master/Report/report.pdf) brief synthesis about deep learning and NLP basics.
-
-
+On previous projects during my master's degree at ENSAE IP Paris, I created biomedical named entity recognition systems for a startup called Posos.
 
 ## I am also on
-
-[Twitter](https://twitter.com/slalomedo)
 
 [Google Scholar](https://scholar.google.fr/citations?user=5LZMtfYAAAAJ&hl=fr)
 
